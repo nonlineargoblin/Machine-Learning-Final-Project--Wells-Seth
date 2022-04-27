@@ -3,10 +3,10 @@ Using this data set to try and predict the a person's risk of stroke given their
 # Data Relationships
 ## Gender
 For gender the data seems to point to females being at higher risk for a stroke than males
-![image](https://user-images.githubusercontent.com/56704804/165182522-dca1212e-277c-4f51-a734-8544f69327f4.png)
+![image](https://user-images.githubusercontent.com/56704804/165633247-eee934b2-a81b-43b3-b919-ee9e4d8bcef2.png)
 ## Age
 When age is plotted against the number of strokes, we can see that the older a person is the more likely they are to have a stroke.
-![image](https://user-images.githubusercontent.com/56704804/165613906-2ee3ddcb-51c9-4bd0-acf6-4d99204e3fb8.png)
+![image](https://user-images.githubusercontent.com/56704804/165634674-c34ceded-64b9-4ceb-aad8-8922d89f6059.png)
 ## Average Glucose Levels
 When looking at Average Glucose Levels, high average glucose levels lead to an increased risk of strokes especially when a person is older in this graph a person that had a stroke will be plotted with an orange dot and a person that has not had a stroke will be plotted in with a blue dot.
 ![image](https://user-images.githubusercontent.com/56704804/165602210-677a1801-6c22-4502-a1c4-abc5332b4964.png)
