@@ -28,3 +28,8 @@ For age the average is 43.22 with a standard deviation of of 22.61. The minimum 
 ![image](https://user-images.githubusercontent.com/56704804/165642985-d1223e19-efdd-44aa-b512-8fbe5f987c54.png)
 
 The data set has more females than males with 2994 females and 2115 males.
+
+## Average Glucose Levels
+![image](https://user-images.githubusercontent.com/56704804/166061342-b1a798f2-4193-4862-964e-5cf51d517166.png)
+
+Average glucose levels is the measure of glucose in the patients blood.; The mean average glucose leve is 106.147 with a standard deviation of 45.283. The max level was recorded at 271 and the minimum of level of 55.12
