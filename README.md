@@ -39,3 +39,16 @@ Average glucose levels is the measure of glucose in the patients blood.; The mea
 To encode my dataset I chose to encode the columns gender,work_type,ever_married, and smoking status using one-hot encoding (the encoding itself was done with the pandas.getdummies()). This was chosen as all of my categorical columns were non-ordinal and also they each had a small number of sub-categories(e.g male or female for gender) with work_type being the largest category with 5 sub-categories. The columns hypertension and heart disease were already encoded in the raw data set with 0 denoting no history of hypertension or heart diesease and 1 denoting a history of hypertension or heart diesease, therefore these columns were not encoded.
 ## Data Dropping
 The only column That was removed in its entirety was the id column as ids were arbitrary and unique. I did remove a single row which had the patient's gender recorded as 'other', since it was the only entry in the dataset with that gender it didn't seem to be of much use and it also added an extra row when gender was encoded.
+
+# Model Results
+## Linear Regression
+Training a linear regression model on the data with 10% test size produced an extremely low accuracy rating of 8.55%. This could be due to the data set having more categorical data than numeric data. The graph below shows the accuracy of the linear regression model as the test size was increased.
+![image](https://user-images.githubusercontent.com/56704804/166836223-52a643d8-f2de-4311-a012-b509d7c74a11.png)
+
+## Decision Tree Classifier
+When training the decision tree classifier model on the data the model was 95% accurate with a test size of 10%. The graph below shows its accuracy performance as the test size was increased.
+![image](https://user-images.githubusercontent.com/56704804/166836596-1b647823-1b0e-4cc9-be57-7ededd579ca0.png)
+
+Below is the visualization of the decision tree.
+![image](https://user-images.githubusercontent.com/56704804/166836851-748aeefb-e7cc-491a-bd67-7882f237f8d6.png)
+
