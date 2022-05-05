@@ -52,3 +52,6 @@ When training the decision tree classifier model on the data the model was 95% a
 Below is the visualization of the decision tree.
 ![image](https://user-images.githubusercontent.com/56704804/166836851-748aeefb-e7cc-491a-bd67-7882f237f8d6.png)
 
+## Model Comparision
+For this specific problem of prediciting strokes the decision tree classifier model was the clear choice when both models were compared to each other. Linear regression failed to produce solid accuracy even when given an extremely large set of training data to work with. However I'm unable to find out where exactly this large discrepancy in accuracy comes from. My best guess is that there is not a clear decision boundry for the linear regression model to latch onto, forcing the model to essentially guess during classification.
+
