@@ -45,6 +45,8 @@ The only column That was removed in its entirety was the id column as ids were a
 Training a linear regression model on the data with 10% test size produced an extremely low accuracy rating of 8.55%. This could be due to the data set having more categorical data than numeric data. The graph below shows the accuracy of the linear regression model as the test size was increased.
 ![image](https://user-images.githubusercontent.com/56704804/166836223-52a643d8-f2de-4311-a012-b509d7c74a11.png)
 
+![image](https://user-images.githubusercontent.com/56704804/167066900-e8c81168-85d9-4241-8436-6da7c8e2ff1f.png)
+
 ## Decision Tree Classifier
 When training the decision tree classifier model on the data the model was 95% accurate with a test size of 10%. The graph below shows its accuracy performance as the test size was increased.
 ![image](https://user-images.githubusercontent.com/56704804/166836596-1b647823-1b0e-4cc9-be57-7ededd579ca0.png)
